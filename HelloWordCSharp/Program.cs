@@ -12,6 +12,7 @@ namespace HelloWordCSharp
         {
             Console.WriteLine("Hello World");
             Console.WriteLine("this is testing line");
+            Console.WriteLine("this is third line");
         }
     }
 }
