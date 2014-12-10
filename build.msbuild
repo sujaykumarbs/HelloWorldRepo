@@ -15,7 +15,7 @@
 
   <Target Name="Compile">
     <Message Importance="high" Text="Compiling projects"/>
-    <MSBuild Projects="$(SrcPath)\HelloWordCSharp.csproj"
+    <MSBuild Projects="$(SrcPath)\HelloWordCSharp\HelloWordCSharp.csproj"
              Properties="Configuration=$(Configuration);Platform=$(Platform)" />
 
   </Target>
